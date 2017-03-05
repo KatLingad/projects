@@ -1,0 +1,165 @@
+ @charset "utf-8";
+#footer {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(3,157,194,1.00) 13.99%);
+	background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(3,157,194,1.00) 13.99%);
+	background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(3,157,194,1.00) 13.99%);
+	background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(3,157,194,1.00) 13.99%);
+	color: #FFF0F1;
+	background-color: #039DC2;
+}
+#section {
+}
+h1 {
+	text-align: center;
+	font-style: normal;
+	font-family: cabin-sketch;
+	font-weight: 400;
+	text-shadow: 3px 3px 3px #ACDCA6;
+}
+blockquote {
+	border-left: 5px dotted #ACDCA6;
+}
+h2 {
+	font-family: cabin-sketch;
+	font-style: normal;
+	font-weight: 400;
+}
+#iconsThree {
+	text-align: center;
+	background-color: #ACDCA6;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-image: -webkit-repeating-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(172,220,166,1.00) 16.58%,rgba(172,220,166,1.00) 84.46%,rgba(255,255,255,1.00) 100%);
+	background-image: -moz-repeating-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(172,220,166,1.00) 16.58%,rgba(172,220,166,1.00) 84.46%,rgba(255,255,255,1.00) 100%);
+	background-image: -o-repeating-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(172,220,166,1.00) 16.58%,rgba(172,220,166,1.00) 84.46%,rgba(255,255,255,1.00) 100%);
+	background-image: repeating-linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(172,220,166,1.00) 16.58%,rgba(172,220,166,1.00) 84.46%,rgba(255,255,255,1.00) 100%);
+}
+#iconsThree h2 {
+	padding-bottom: 20px;
+	padding-top: 0px;
+}
+
+#iconsThree .glyphicon {
+	font-size: 80px;
+}
+#photoGallery {
+}
+#photoGallery img {
+	width: 100%;
+	transition: all 1.5s;
+}
+fieldset legend {
+	font-size: 14px;
+	font-weight: bold;
+}
+#allMedia {
+}
+#videoPlayer {
+	background-color: #ACDCA6;
+	padding-bottom: 20px;
+	padding-top: 10px;
+	background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0.52%,rgba(172,220,166,1.00) 6.22%,rgba(172,220,166,1.00) 94.30%,rgba(255,255,255,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0.52%,rgba(172,220,166,1.00) 6.22%,rgba(172,220,166,1.00) 94.30%,rgba(255,255,255,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0.52%,rgba(172,220,166,1.00) 6.22%,rgba(172,220,166,1.00) 94.30%,rgba(255,255,255,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0.52%,rgba(172,220,166,1.00) 6.22%,rgba(172,220,166,1.00) 94.30%,rgba(255,255,255,1.00) 100%);
+	color: #FFFFFF;
+	text-decoration: none;
+	text-shadow: 0.5px 0.5px #000000;
+}
+#audioPlayer {
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+.carousel-caption h3 {
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #000000;
+}
+#footer .fa {
+	padding-left: 8px;
+	padding-right: 8px;
+}
+#footer a {
+	color: #FFFFFF;
+}
+a .glyphicon {
+	color: #515151;
+	text-shadow: 1.5px 3px 2px #F0EFEF;
+}
+#faqQuestion {
+}
+.faqAnswer {
+	margin-bottom: 15px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 30px;
+	border: thick groove #B4B4B4;
+	border-radius: 10px;
+	color: #FFFFFF;
+	background-color: #00122a;
+	background-image: url("http://www.transparenttextures.com/patterns/textured-paper.png");
+	text-shadow: 1px 1px #676767;
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+#firstAnswer {
+}
+#secondAnswer {
+}
+#thirdAnswer {
+}
+#faqQuestion p a {
+	font-weight: bold;
+	text-decoration: none;
+	color: #039DC2;
+	text-shadow: 0 0;
+	transition: all 0.5s;
+}
+.faqAnswer p a {
+	font-weight: bold;
+	font-style: italic;
+	color: #F0F0F0;
+	float: right;
+	text-shadow: 1.5px 1.5px 1.5px #696969;
+}
+.faqAnswer p:first-child {
+	font-weight: bold;
+	text-shadow: 1.5px 1.5px #2F2F2F;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:768px){
+#photoGallery img {
+	width: 50%;
+	transform: rotate(360deg);
+}
+
+}
+
+@media screen and (min-width:922px){
+}
+
+@media screen and (min-width:1200px){
+#photoGallery img {
+	width: 25%;
+	transform: rotate(720deg);
+}
+
+}
