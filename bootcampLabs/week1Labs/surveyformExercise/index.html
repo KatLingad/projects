@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Survey Form</title>
+    </head>
+    <body>
+        <form action="#" method="post">
+            <table>
+                <tr>
+                    <td>Customer First Name:</td>
+                    <td><input type="text" name="first"/></td>
+                </tr>
+                <tr>
+                    <td>Customer Last Name:</td>
+                    <td><input type="text" name="last"/></td>
+                </tr>
+                <tr>
+                    <td>Customer Email Address:</td>
+                    <td><input type="text" name="email"/></td>
+                </tr>
+                <tr>
+                    <td>Customer Phone Number:</td>
+                    <td><input type="text" name="phone"/></td>
+                </tr>
+                <tr>
+                    <td>Customer Street Address:</td>
+                    <td><input type="text" name="address"/></td>
+                </tr>
+                <tr>
+                    <td>Customer City:</td>
+                    <td><input type="text" name="city"/></td>
+                </tr>
+                <tr>
+                    <td>Customer State:</td>
+                    <td><select name="state">
+                        <option value="Alabama">AL</option>
+                        <option value="Alaska">AK</option>
+                        <option value="Arizona">AZ</option>
+                        <option value="Arkansas">AR</option>
+                        <option value="California">CA</option>
+                        <option value="Colorado">CO</option>
+                        <option value="Connecticut">CT</option>
+                        <option value="Delaware">DE</option>
+                        <option value="DC">DC</option>
+                        <option value="Florida">FL</option>
+                        <option value="Georgia">GA</option>
+                        <option value="Hawaii">HI</option>
+                        <option value="Idaho">ID</option>
+                        <option value="Illinois">IL</option>
+                        <option value="Indiana">IN</option>
+                        <option value="Iowa">IA</option>
+                        <option value="Kansas">KS</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>Age</td>
+                    <td><input type="number" name="age" min="0" max="115"/></td>
+                </tr>
+                <tr>
+                    <td>DOB:</td>
+                    <td><input type="date" name="DOB" id="DOB"/></td>
+                </tr>
+                <tr>
+                    <td>What Type of Crust Do You Prefer?</td>
+                    <td>
+                        <input type="radio" value="Thin Crust" name="crust">Thin Crust
+                        <input type="radio" value="Thick Crust" name="crust">Thick Crust
+                        <input type="radio" value="Deep Dish" name="crust">Deep Dish
+                    </td>
+                </tr>
+                <tr>
+                    <td>Pizza Toppings You Like</td>
+                    <td>
+                        <input type="checkbox" value="Pepperoni" name="Toppings"/>Pepperoni<br/>
+                        <input type="checkbox" value="Mushroom" name="Toppings"/>Mushroom<br/>
+                        <input type="checkbox" value="Sausage" name="Toppings"/>Sausage<br/>
+                        <input type="checkbox" value="Hamburg" name="Toppings"/>Hamburg<br/>
+                        <input type="checkbox" value="Peppers" name="Toppings"/>Peppers<br/>
+                        <input type="checkbox" value="Anchovies" name="Toppings"/>Anchovies<br/>
+                    </td>
+                </tr>
+                <td><input type="reset" /></td>
+                    <td><input type="submit" value="Send Info" />
+        </form>
+        
+    </body>
+</html>
