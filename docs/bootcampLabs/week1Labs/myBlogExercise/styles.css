@@ -1,0 +1,31 @@
+/*Add body style for border margin add padding */
+body {
+    margin: 5%;
+    border: 25px solid #b3bec1;
+    padding: 2%;
+}
+/*Add style for h2 tags */
+h3 {
+    font-family: Arial, sans-serif;
+    color: #89cff0;
+}
+
+/* Add style for h1 tags */
+h1 {
+    font-family: Arial, sans-serif;
+    color: #000080;
+    padding: 1%;
+    padding-left: 0;
+}
+
+/* Add style for p tags in divs */
+div p {
+    border-left: 7px solid #b3bec1;
+    padding-left: 1%;
+}
+
+/* Add font size and style for all p tags */
+p {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}

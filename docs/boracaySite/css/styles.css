@@ -1,0 +1,612 @@
+/* Style sheet created by: Katherine Lingad, December 9, 2016 */
+
+/* Style for body specifies a background color and margin*/
+body {
+ background-color: #FFFFFF;
+ margin: 0;
+ padding-bottom: 0;
+}
+
+/* Style for fluid image */
+img {
+    max-width: 100%;
+}
+
+/* Styles for Mobile Layout */
+
+/* Style for container centers the page and sets the element width */
+#container {
+    max-width: 100%;
+}
+
+/* Style for the banner ids max width and text-alignment */
+#banner {
+    max-width: 100%;
+    text-align: center;
+}
+
+/* Style for header specifies margin top, margin bottom, and text alignment content */
+header {
+    margin-top: 10px;
+    margin-bottom: -1px;
+    text-align: center;
+}
+
+/* Style for nav specifies text properties */
+nav {
+    font-family: Arial, "Times New Roman", serif;
+    color: #04010B;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0em;
+}
+
+/* Style specifies padding and margins for unordered list */
+nav ul {
+    padding: 0;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+/* Style for nav li specifies the background color, rounded corners, removes bullet style, and applies margins and padding for list items within the navigation */
+nav li {
+    background-color: #9D9D93;
+    border-radius: 2em;
+    list-style-type: none;
+    margin: 0.3em;
+    padding: 0.4em;
+}
+
+/* Style changes navigation link text color to white and removes the underline */
+nav li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* Style for the main element specifies a block display, text properties, margins, padding, rounded corners, and border properties */
+main {
+    max-width: 100%;
+    display: block;
+    font-family: Arial, "Times New Roman", sans-serif;
+    font-size: .75em;
+    text-align: center;
+    margin-top: 1%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 1%;
+    border-radius: 2em 0 2em 0;
+    box-shadow: 1em 1em 1em #331400;
+    background-color: #FFFFFF;
+    opacity: 0.85;
+    overflow: auto;
+}
+
+/* Style for footer specifies font size, text alignment, and top margin */
+footer {
+    font-family: Arial, "Times New Roman", sans-serif;
+    font-size: .70em;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: -10em;
+    padding-bottom: 1em;
+    color: #04010B;
+}
+
+/* Style displays the mobile class */
+.mobile {
+    display: inline;
+}
+
+/* Style hides the table class */
+.tablet {
+    display: none;
+}
+
+/* style hides the desktop class */
+.desktop {
+    display: none;
+}
+
+/* Style for the Index Page */
+
+/* Style for the youtube video */
+.iframe {
+    position: relative; /* keeps the aspect ratio */ 
+    padding-bottom: 56.25%; /* fine tunes the video positioning */ 
+    padding-top: 60px; 
+    overflow: hidden;
+}
+
+.iframe iframe,.iframe object,.iframe embed { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%;
+}
+
+/* Styles for the About Page */
+
+/* Style for the stations class display and list style */
+.stations {
+    display: inline-block;
+    list-style-position: outside;
+    margin-left: -10%;
+    width: 22%;
+}
+
+/* Style for the map class text alignment */
+.map {
+    text-align: center;
+}
+
+/* Styles for the Directions Page */
+
+/* Style for the travel class element width */
+.travel {
+    width: 70%;
+    padding-bottom: 1%;
+}
+
+/* Styles for the Hotels Page */
+
+/* Style for the hotels class max-width, margins */
+.hotels {
+    max-width: 100%;
+    padding-top: 1%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* Styles for the Review Page */
+
+/* Style for video */
+.myVideo {
+    width: 80%;
+}
+
+/* Styles for the Contact Page */
+
+/* Style rule for input, select, and textarea form elements */
+input, select, textarea {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+/* Style rule for lable element */
+label {
+    display: block;
+    text-align: center;
+}
+
+/* Style rule for unordered list within a form */
+form ul {
+    list-style-type: none;
+    text-align: left;
+    margin-left: 30%;
+    margin-right: auto;
+}
+
+/* Style rule for chxbx class */
+.chkbox {
+    display: inline-block;
+    margin-left: -2%;
+}
+
+/* Styles for the contact class display, font style, text alignment, margin, padding, border style, background, opacity */
+.contact {
+    display: block;
+    font-family: Arial, "Times New Roman", sans-serif;
+    font-size: .75em;
+    text-align: center;
+    margin-top: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0 0 0 0;
+    opacity: 0.70;
+}
+
+/* Style for the background image */
+.sect {
+    background-image: url("../images/boracayBackground.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    opacity: 0.85;
+}
+
+
+/* Media query for tablet viewpoint targets screen size with a minimum width of 660px. */
+
+@media only screen and (min-width: 660px) {
+    
+/* Style for body specifies a background color */
+body {
+    background-color: #FFFFFF;
+}
+
+/* Style specifies padding and margins for unordered list */
+nav ul {
+    padding: 0;
+}
+
+/* Style for nav li specifies the background color, rounded corners, removes bullet style, and applies margins and padding for list items within the navigation */
+nav li {
+    display: inline;
+    white-space: nowrap;
+    border-radius: 0;
+    background-color: transparent;
+}
+
+/* Style for navigation links specifies display and padding */
+nav li a {
+    color: #04010B;
+    display: inline-block;
+    padding: 0.05em;
+    text-shadow: .03em .04em #3D3D35;
+    font-size: small;
+}
+
+/* Style for container centers the page and sets the element width */
+#container {
+    max-width: 100%;
+}
+
+/* Style for the banner ids max width and text-alignment */
+#banner {
+    max-width: 100%;
+    text-align: center;
+}
+
+/* Style for the main element specifies a block display, text properties, margins, padding, rounded corners, and border properties */
+main {
+    max-width: 100%;
+    display: block;
+    font-family: Arial, "Times New Roman", sans-serif;
+    font-size: .75em;
+    text-align: center;
+    margin-top: 1%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 1%;
+    border-radius: 2em 0 2em 0;
+    box-shadow: 1em 1em 1em #331400;
+    background-color: #FFFFFF;
+    opacity: 0.85;
+    overflow: auto;
+}
+
+/* Style for footer specifies font size, text alignment, and top margin */
+footer {
+    font-family: Arial, "Times New Roman", sans-serif;
+    font-size: .70em;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: -10em;
+    padding-bottom: 1em;
+    color: #04010B;
+}
+
+/* Style displays the mobile class */
+.mobile {
+    display: inline;
+}
+
+/* style hides the desktop class */
+.tablet {
+    display: inline;
+}
+
+/* style hides the desktop class */
+.desktop {
+    display: none;
+}
+
+/* Style for the About Page */
+
+/* Style for the stations class display and list style */
+.stations {
+    display: inline-block;
+    list-style-position: outside;
+    margin-left: -5%;
+}
+
+/* Styles for the Review Page */
+
+/* Style for video */
+.myVideo {
+    width: 80%;
+}
+
+/* Style for the Contact Page */
+
+/* Style rule for chxbx class */
+.chkbox {
+    display: inline-block;
+    margin-left: 15%;
+}
+
+}
+
+/* Media query for desktop viewport targets screens with a minimum width of 830px. */
+
+@media only screen and (min-width: 830px) {
+    
+/* Style specifies padding and margins for unordered list */
+nav ul {
+    padding: 0;
+}
+
+/* Style for nav li specifies the background color, rounded corners, removes bullet style, and applies margins and padding for list items within the navigation */
+nav li {
+    display: inline;
+    white-space: nowrap;
+    border-radius: 0;
+    background-color: transparent;
+}
+
+/* Style for navigation links specifies display and padding */
+nav li a {
+    color: #04010B;
+    display: inline-block;
+    padding: 0.4em;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    text-shadow: .03em .04em #3D3D35;
+    font-size: 1em;
+}
+
+/* Style for container centers the page and sets the element width */
+#container {
+    max-width: 100%;
+}
+
+/* Style for the banner ids max width and text-alignment */
+#banner {
+    max-width: 100%;
+    text-align: center;
+}
+
+/* Style for the main element specifies a block display, text properties, margins, padding, rounded corners, and border properties */
+main {
+    max-width: 100%;
+    display: block;
+    font-family: Arial, "Times New Roman", sans-serif;
+    font-size: .75em;
+    text-align: center;
+    margin-top: 1%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 1%;
+    border-radius: 2em 0 2em 0;
+    box-shadow: 1em 1em 1em #331400;
+    background-color: #FFFFFF;
+    opacity: 0.85;
+    overflow: auto;
+}
+
+/* Style for footer specifies font size, text alignment, and top margin */
+footer {
+    font-family: Arial, "Times New Roman", sans-serif;
+    font-size: .70em;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: -10em;
+    padding-bottom: 1em;
+    color: #04010B;
+}
+
+/* Style displays the mobile class */
+.mobile {
+    display: none;
+}
+
+/* style hides the desktop class */
+.tablet {
+    display: none;
+}
+
+/* style hides the desktop class */
+.desktop {
+    display: inline;
+}
+
+/* Style for Index Page */
+
+/* Style for the youtube video */
+iframe {
+    max-width: inherit;
+	height: auto;
+}
+
+/* Styles for the About Page elements */
+
+/* Style for the stations class display and list style position */
+.stations {
+    display: none;
+}
+
+/* Style for the map class text alignment */
+.map {
+    text-align: left;
+}
+
+/* Style for table element */
+table {
+    border: 0.1em solid #000000;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+/* Style specifies border and padding for th and td elements */
+th, td {
+    border: 0.1em solid #000000;
+    padding: 1em;
+}
+
+/* Style for th element */
+th {
+    background-color: #1D1D1C;
+    color: #FFFFFF;
+    width: 20%;
+}
+
+/* Style for the td element */
+tr {
+    height: 5em;
+}
+
+/* Style for the Directions Page */
+
+/* Style for the travel class float */
+.travel {
+    text-align: center;
+}
+
+/* Style for the Hotels Page */
+
+#hotels {
+    max-width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 0;
+}
+
+.hotels {
+    max-width: 100%;
+}
+/* Styles for the Activities Page */
+
+/* Style for section */
+.things {
+    background: rgba(7, 173, 240, 0.1); /* Blue background with 30% opacity */
+    max-width: 100%;
+    display: block;
+    font-family: Arial, "Times New Roman", sans-serif;
+    font-size: .75em;
+    text-align: center;
+    margin-top: 1%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 1%;
+    overflow: auto;
+}
+
+/* Style for article element */
+article {
+    float: left;
+    margin:0.1%;
+    padding-left: 2%;
+    text-align: center;
+    width: 22%;
+
+}
+
+.factivity {
+    float: left;
+    margin:0.1%;
+    margin-top: 2%;
+    padding-left: 2%;
+    text-align: center;
+    width: 22%;
+}
+
+/* Style for image element contained within the main article element */
+.article {
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: .5em;
+    width: 80%;
+    opacity: 1;
+}
+
+/* Style for paragraph element contained within the main article element */
+main article p {
+    color: #000000;
+    margin-top: 2%;
+    padding: 1%;
+    text-align: left;
+}
+
+/* Style for unordered list element contained within the main article element */
+main article ul {
+    text-align: left;
+}
+
+/* Style for aside element */
+aside {
+    color: #ECEEF5;
+    background-color: #050E3E;
+    border-radius: 0 5em 5em 5em;
+    padding: 1.5em;
+    margin: 1em;
+    margin-top: 3em;
+    font-style: italic;
+}
+
+.nightlife {
+    margin-bottom: 10%;
+}
+
+.daylife {
+    margin-bottom: 10%;
+}
+
+/* Styles for the Review Page */
+
+/* Style for video */
+.myVideo {
+    width: 80%;
+}
+
+/* Styles for the Contact Page */
+
+/* style for the form text alignment */
+form {
+    text-align: center;
+}
+
+/* Style rule for input, select, and textarea form elements */
+input, select, textarea {
+    display: block;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+/* Style rule for lable element */
+label {
+    display: block;
+    text-align: center;
+}
+
+/* Style rule for unordered list within a form */
+form ul {
+    list-style-type: none;
+    text-align: left;
+    margin-left: 40%;
+    margin-right: auto;
+}
+
+/* Style rule for chxbx class */
+.chkbox {
+    display: inline-block;
+    margin-left: 5%;
+}
+
+}
+
