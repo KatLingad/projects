@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery Methods</title>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+	<style type="text/css">
+		.correct {
+			color: green;
+		}
+
+		.wrong {
+			color: red;
+			background: pink;
+		}
+
+		.done {
+			color: gray;
+			text-decoration: line-through;
+		}
+
+	</style>
+</head>
+<body>
+
+<h1>The page header</h1>
+
+<input type="color" placeholder="your name">
+
+<select>
+	<option>Ostrich</option>
+	<option>Turtle</option>
+	<option>Toad</option>
+</select>
+
+<ul>
+	<li>Skittles</li>
+	<li>Starburst</li>
+	<li class="wrong">Twix</li>
+</ul>
+
+<p></p>
+
+<img src="http://i.imgur.com/zvANQeG.jpg">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function () {
+        //ADD YOUR SCRIPT HERE
+    	$("h1").text("jQuery Methods Demo Page");
+    	$("p").html("<a href='www.google.com'>Click for Google's Homepage</a>");
+      	$("img").attr("title", "pine marten");
+      	$("input").attr("type", "text");
+      	$("h1").addClass("correct");
+      	$("li:last").removeClass("wrong");
+      	$("li:first").toggleClass("done");
+    
+    	$("select").change(function () {
+		console.log($("select option:selected").val());
+    	});
+    });
+</script>
+
+</body>
+</html>
